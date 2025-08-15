@@ -19,9 +19,9 @@ Develop a **Java CLI application** to manage employee records with **database in
 
 ## 🗄 Database Setup
 (Run the following SQL commands in MySQL before running the project:)
+
 CREATE DATABASE IF NOT EXISTS employee_db;
 USE employee_db;
-
 CREATE TABLE IF NOT EXISTS employees (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
